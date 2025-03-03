@@ -40,25 +40,25 @@ def stream_markup_timer(_, videoid, chat_id, played, dur):
     percentage = (played_sec / duration_sec) * 100
     umm = math.floor(percentage)
     if 0 < umm <= 10:
-        bar = "❤️‍🔥—————————"
+        bar = "❦—————————"
     elif 10 < umm < 20:
-        bar = "——❤️‍🔥———————"
+        bar = "——❦———————"
     elif 20 <= umm < 30:
-        bar = "———❤️‍🔥——————"
+        bar = "———❦——————"
     elif 30 <= umm < 40:
-        bar = "—————❤️‍🔥————"
+        bar = "—————❦————"
     elif 40 <= umm < 50:
-        bar = "——————❤️‍🔥———"
+        bar = "——————❦———"
     elif 50 <= umm < 60:
-        bar = "———————❤️‍🔥——"
+        bar = "———————❦——"
     elif 60 <= umm < 70:
-        bar = "—————————❤️‍🔥"
+        bar = "—————————❦"
     elif 70 <= umm < 80:
-        bar = "—Jani—Pawar—"
+        bar = "—𓆰꯭꯭♔꯭꯭ 𝗝꯭ᴀ꯭፝֟͠ɴ꯭ɪ꯭ꨄ꯭.꯭𝆭 ⃪꯭꯭꯭꯭꯭꯭🔥꯭➛꯭💌꯭꯭—"
     elif 80 <= umm < 95:
-        bar = "——𝐕𝐢𝐏—𝐉𝐚𝐧𝐢——"
+        bar = "——𓆰꯭꯭♔꯭꯭ 𝗝꯭ᴀ꯭፝֟͠ɴ꯭ɪ꯭ꨄ꯭.꯭𝆭 ⃪꯭꯭꯭꯭꯭꯭🔥꯭➛꯭💌꯭꯭——"
     else:
-        bar = "————𝐕𝐢𝐏————♡"
+        bar = "————𝗝𝗮𝗻𝗶—𝗠𝘂𝘀𝗶𝗰————♡"
 
     buttons = [
         [
@@ -76,10 +76,10 @@ def stream_markup_timer(_, videoid, chat_id, played, dur):
         ],
       [
             InlineKeyboardButton(
-                text="✰ 𝖡ᴧ፝֠֩ʙꭎ ✰", url="http://t.me/AVENGERS_OWNER",
+                text="✰ 𝖡ᴧ፝֠֩ʙꭎ ✰", url="http://t.me/RAM_HACKER_RP",
             ),
             InlineKeyboardButton(
-                text="✰ 𝛅ᴏ፝֠֩𝛈ᴧ ✰", url="https://t.me/II_WORLD_CHAT_II",
+                text="✰ 𝛅ᴏ፝֠֩𝛈ᴧ ✰", url="https://t.me/VIP_RAM_HACKER_PR",
             )
         ],
          [InlineKeyboardButton(text=_["CLOSE_BUTTON"], callback_data="close")],
@@ -99,10 +99,10 @@ def stream_markup(_, videoid, chat_id):
          ],
         [
             InlineKeyboardButton(
-                text="✰ 𝖡ᴧ፝֠֩ʙꭎ ✰", url="http://t.me/AVENGERS_OWNER",
+                text="✰ 𝖡ᴧ፝֠֩ʙꭎ ✰", url="http://t.me/RAM_HACKER_RP",
             ),
             InlineKeyboardButton(
-                text="✰ 𝛅ᴏ፝֠֩𝛈ᴧ ✰", url="https://t.me/II_WORLD_CHAT_II",
+                text="✰ 𝛅ᴏ፝֠֩𝛈ᴧ ✰", url="https://t.me/VIP_RAM_HACKER_PR",
             )
         ],
         [InlineKeyboardButton(text=_["CLOSE_BUTTON"], callback_data="close")],
